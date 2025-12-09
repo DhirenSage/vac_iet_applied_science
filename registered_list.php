@@ -13,7 +13,7 @@ function safe($value) {
 }
 
 // fetch data
-$query  = "SELECT * FROM vacietappliedscience ORDER BY id DESC";
+$query  = "SELECT * FROM vacmoleculartools ORDER BY id DESC";
 $result = mysqli_query($conn, $query);
 
 if (!$result) {
