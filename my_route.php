@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VAC on Molecular Tools: Pioneering Innovations for Human Welfare - Institute of Sciences</title>
+  <title>Value Added Course on R Programming 2026 | SAGE University Indore | Hands-on Data Analytics Training</title>
   <link rel="icon" type="image/x-icon" href="https://sageuniversity.in/assets/images/logo/suifavicon.png">
   <style>
  :root {
@@ -270,21 +270,25 @@
   </header>
 
   <div class="container">
-    <h1 class="main-heading">Value Added Course 2025 on Molecular Tools: Pioneering Innovations for Human Welfare</h1>
+    <h1 class="main-heading">Value Added Course 2026 on R Programming</h1>
 
     <div class="card overview">
-      <h2>Organized by the Institute of Sciences, SAGE University Indore</h2>
+      <h2>Organized by the Institute of Engineering & Technology – Applied Science, SAGE University Indore</h2>
 
       <div class="overview-content">
-        <img src="VAC_img.jpg" alt="Molecular Tools Workshop" loading="lazy">
+        <img src="rprograming.jpg" alt="Value Added Course 2026 on R Programming" loading="lazy">
         <div class="overview-text">
-          <p><strong>Description:</strong> <em>This Value Added Course aims to introduce students about the fundamental molecular techniques used in Biotechnology, genetic engineering, and biomedical research. It emphasizes hands-on learning and applications for human welfare.</em></p>
-          <p><strong>Theme:</strong> <em>Exploring the Power of Molecular Tools in Advancing Science and Society</em></p>
-          <p><strong>Organized by:</strong> Institute of Sciences, SAGE University Indore</p>
-          <p><strong>Duration:</strong> 17th – 21st November 2025</p>
-          <p><strong>Mode / Venue:</strong> Offline / Institute of Sciences Laboratory & Seminar Hall</p>
-          <p><strong>Target Participants:</strong> Students of Life Sciences, Biotechnology, Microbiology, and related fields</p>
-          <p><strong>Registration Fees:</strong> ₹500 (Including Study Material & Certificate)</p>
+          <p><strong>Description:</strong> <em>This Value Added Course is designed to introduce participants to the fundamentals of R Programming, a powerful statistical and data analysis language widely used in data science, research, AI, finance, and machine learning.</em></p>
+		  
+          <p><em>The course emphasizes practical hands-on learning, real data analysis, visualization techniques, and applications relevant to industry and academic research.</em></p>
+		  
+          <p><strong>Theme:</strong> <em>🔍 Learn, Code & Analyze with R for Data-Driven Decision Making</em></p>
+          <p><strong>Organized by:</strong> 🏛️ Institute of Engineering & Technology – Applied Science</p>
+          <p><strong>Duration:</strong> 📅 22 December 2026 – 2 January 2026</p>
+          <p><strong>Time:</strong> ⏰ 2:00 PM – 4:00 PM</p>
+          <p><strong>Mode / Venue:</strong> 📍 Offline | SAGE University Indore (To be announced)</p>
+          <p><strong>Target Participants:</strong> 🎓 Students from Engineering, Applied Science, IT, Computer Science, Data Science, AI, and related disciplines.</p>
+          <p><strong>Registration Fees:</strong> ₹300 (Including Study Material & Certificate)</p>
           <p style="color:#9a1750; font-weight:700; font-size:17px;">
             ⚠️ Limited Seats Available — Register Soon!
           </p>

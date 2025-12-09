@@ -24,7 +24,7 @@ if (!$result) {
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Value Added Course 2025 on Molecular Tools: Pioneering Innovations for Human Welfare : SAGE University Indore</title>
+  <title>Value Added Course 2026 on R Programming : SAGE University Indore</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Favicon -->
@@ -120,7 +120,7 @@ if (!$result) {
 
   <div class="text-center mt-3">
     <img src="https://sageuniversity.in/sage_events/suilogo.png" alt="SAGE Logo" width="400" class="mb-2">
-    <h2>Value Added Course 2025 on Molecular Tools: Pioneering Innovations for Human Welfare Registered List</h2>
+    <h2>Value Added Course 2026 on R Programming Registered List</h2>
   </div>
 
   <div class="full-page-table">
@@ -173,7 +173,7 @@ if (!$result) {
   </div>
 
   <footer>
-    © 2025 SAGE University Indore | Value Added Course 2025 on Molecular Tools: Pioneering Innovations for Human Welfare
+    © 2025 SAGE University Indore | Value Added Course 2026 on R Programming
   </footer>
 
   <!-- Scripts -->

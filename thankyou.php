@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank You - VAC on Molecular Tools: Pioneering Innovations for Human Welfare Registration</title>
+  <title>Thank You - Value Added Course 2026 on R Programming Registration</title>
   <style>
     body {
       font-family: 'Poppins', sans-serif;
