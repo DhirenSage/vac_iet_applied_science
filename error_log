@@ -1,0 +1,53 @@
+[10-Mar-2025 11:24:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'sageuni_registration_form.tech_guru_ica' doesn't exist in /home/sageuni/public_html/sage_events/old_event/techguruica1/registered_list.php:30
+Stack trace:
+#0 /home/sageuni/public_html/sage_events/old_event/techguruica1/registered_list.php(30): mysqli_query(Object(mysqli), 'SELECT * FROM t...')
+#1 {main}
+  thrown in /home/sageuni/public_html/sage_events/old_event/techguruica1/registered_list.php on line 30
+[11-Mar-2025 16:47:16 UTC] PHP Warning:  Undefined array key "txnid" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 9
+[11-Mar-2025 16:47:16 UTC] PHP Warning:  Undefined array key "bank_ref_num" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 10
+[11-Mar-2025 16:47:16 UTC] PHP Warning:  Undefined array key "net_amount_debit" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 11
+[11-Mar-2025 16:47:16 UTC] PHP Warning:  Undefined array key "easepayid" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 12
+[11-Mar-2025 16:47:16 UTC] PHP Warning:  Undefined array key "status" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 13
+[11-Mar-2025 16:47:16 UTC] PHP Warning:  Undefined array key "productinfo" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 14
+[11-Mar-2025 16:47:16 UTC] PHP Warning:  Undefined array key "mode" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 15
+[11-Mar-2025 16:47:16 UTC] PHP Warning:  Undefined array key "error" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 16
+[11-Mar-2025 16:47:16 UTC] PHP Warning:  Undefined array key "email" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 17
+[11-Mar-2025 16:47:16 UTC] PHP Warning:  Undefined array key "firstname" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 18
+[11-Mar-2025 16:47:23 UTC] PHP Warning:  Undefined array key "name" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 7
+[11-Mar-2025 16:47:23 UTC] PHP Warning:  Undefined array key "mail" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 8
+[11-Mar-2025 16:47:23 UTC] PHP Warning:  Undefined array key "mobile_no" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 9
+[11-Mar-2025 16:47:23 UTC] PHP Warning:  Undefined array key "enrollment" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 10
+[11-Mar-2025 16:47:23 UTC] PHP Warning:  Undefined array key "fathername" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 11
+[11-Mar-2025 16:47:23 UTC] PHP Warning:  Undefined array key "qualification" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 12
+[15-Mar-2025 07:09:27 UTC] PHP Warning:  Undefined array key "name" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 7
+[15-Mar-2025 07:09:27 UTC] PHP Warning:  Undefined array key "mail" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 8
+[15-Mar-2025 07:09:27 UTC] PHP Warning:  Undefined array key "mobile_no" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 9
+[15-Mar-2025 07:09:27 UTC] PHP Warning:  Undefined array key "enrollment" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 10
+[15-Mar-2025 07:09:27 UTC] PHP Warning:  Undefined array key "fathername" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 11
+[15-Mar-2025 07:09:27 UTC] PHP Warning:  Undefined array key "qualification" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 12
+[15-Mar-2025 07:25:32 UTC] PHP Warning:  Undefined array key "txnid" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 9
+[15-Mar-2025 07:25:32 UTC] PHP Warning:  Undefined array key "bank_ref_num" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 10
+[15-Mar-2025 07:25:32 UTC] PHP Warning:  Undefined array key "net_amount_debit" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 11
+[15-Mar-2025 07:25:32 UTC] PHP Warning:  Undefined array key "easepayid" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 12
+[15-Mar-2025 07:25:32 UTC] PHP Warning:  Undefined array key "status" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 13
+[15-Mar-2025 07:25:32 UTC] PHP Warning:  Undefined array key "productinfo" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 14
+[15-Mar-2025 07:25:32 UTC] PHP Warning:  Undefined array key "mode" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 15
+[15-Mar-2025 07:25:32 UTC] PHP Warning:  Undefined array key "error" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 16
+[15-Mar-2025 07:25:32 UTC] PHP Warning:  Undefined array key "email" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 17
+[15-Mar-2025 07:25:32 UTC] PHP Warning:  Undefined array key "firstname" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 18
+[17-Mar-2025 16:29:24 UTC] PHP Warning:  Undefined array key "txnid" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 9
+[17-Mar-2025 16:29:24 UTC] PHP Warning:  Undefined array key "bank_ref_num" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 10
+[17-Mar-2025 16:29:24 UTC] PHP Warning:  Undefined array key "net_amount_debit" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 11
+[17-Mar-2025 16:29:24 UTC] PHP Warning:  Undefined array key "easepayid" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 12
+[17-Mar-2025 16:29:24 UTC] PHP Warning:  Undefined array key "status" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 13
+[17-Mar-2025 16:29:24 UTC] PHP Warning:  Undefined array key "productinfo" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 14
+[17-Mar-2025 16:29:24 UTC] PHP Warning:  Undefined array key "mode" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 15
+[17-Mar-2025 16:29:24 UTC] PHP Warning:  Undefined array key "error" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 16
+[17-Mar-2025 16:29:24 UTC] PHP Warning:  Undefined array key "email" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 17
+[17-Mar-2025 16:29:24 UTC] PHP Warning:  Undefined array key "firstname" in /home/sageuni/public_html/sage_events/old_event/techguruica1/response.php on line 18
+[17-Mar-2025 16:38:24 UTC] PHP Warning:  Undefined array key "name" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 7
+[17-Mar-2025 16:38:24 UTC] PHP Warning:  Undefined array key "mail" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 8
+[17-Mar-2025 16:38:24 UTC] PHP Warning:  Undefined array key "mobile_no" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 9
+[17-Mar-2025 16:38:24 UTC] PHP Warning:  Undefined array key "enrollment" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 10
+[17-Mar-2025 16:38:24 UTC] PHP Warning:  Undefined array key "fathername" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 11
+[17-Mar-2025 16:38:24 UTC] PHP Warning:  Undefined array key "qualification" in /home/sageuni/public_html/sage_events/old_event/techguruica1/uploadregister.php on line 12
