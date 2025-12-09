@@ -17,10 +17,10 @@ $error = $_POST['error'];
 $email = $_POST['email'];
 $name= $_POST['firstname'];
     
-   $sql = "update vacmoleculartools set bank_ref_num = '$bank_ref_num',easepayid='$easepayid',amount='$net_amount_debit',mode='$mode',error='$error',status='2',event_type='$productinfo' where order_id = '$order_id'";
+   $sql = "update vacietappliedscience set bank_ref_num = '$bank_ref_num',easepayid='$easepayid',amount='$net_amount_debit',mode='$mode',error='$error',status='2',event_type='$productinfo' where order_id = '$order_id'";
    $result = $conn->query($sql);  
    
   echo "<script type='text/javascript'>window.alert('Thank You.. Registration Form Submitted Successfully.');
-			window.location.href='https://sageuniversity.in/sage_events/vac_molecular_tools/thankyou.php';
+			window.location.href='https://sageuniversity.in/sage_events/vac_iet_applied_science/thankyou.php';
 		</script>"; 
 ?>

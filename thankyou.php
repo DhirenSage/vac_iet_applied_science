@@ -79,7 +79,7 @@
     <h1>Thank You!</h1>
     <p>Your registration for the <b>VAC on Molecular Tools: Pioneering Innovations for Human Welfare</b> has been successfully submitted.</p>
     <p>We’ll contact you soon with further details.</p>
-    <a href="https://sageuniversity.in/sage_events/vac_molecular_tools/" class="btn">Back to Home</a>
+    <a href="https://sageuniversity.in/sage_events/vac_iet_applied_science/" class="btn">Back to Home</a>
   </div>
 </body>
 </html>

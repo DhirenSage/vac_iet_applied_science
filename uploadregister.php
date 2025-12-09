@@ -15,25 +15,25 @@ $institution = trim($_POST["institution"] ?? '');
 $year = trim($_POST["year"] ?? '');
 
 // Amount
-$amount = 500;
+$amount = 300;
 
 // Validation
 if (empty($name) || !preg_match("/^[a-zA-Z-' ]*$/", $name)) {
-    echo "<script>alert('Please enter a valid name'); window.location.href='https://sageuniversity.in/sage_events/vac_molecular_tools';</script>";
+    echo "<script>alert('Please enter a valid name'); window.location.href='https://sageuniversity.in/sage_events/vac_iet_applied_science';</script>";
     exit;
 }
 if (empty($mobile_no) || !preg_match("/^[0-9]{10}$/", $mobile_no)) {
-    echo "<script>alert('Please enter a valid mobile number'); window.location.href='https://sageuniversity.in/sage_events/vac_molecular_tools';</script>";
+    echo "<script>alert('Please enter a valid mobile number'); window.location.href='https://sageuniversity.in/sage_events/vac_iet_applied_science';</script>";
     exit;
 }
 if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    echo "<script>alert('Please enter a valid email'); window.location.href='https://sageuniversity.in/sage_events/vac_molecular_tools';</script>";
+    echo "<script>alert('Please enter a valid email'); window.location.href='https://sageuniversity.in/sage_events/vac_iet_applied_science';</script>";
     exit;
 }
 
 // Insert query
 $stmt = $conn->prepare("
-    INSERT INTO vacmoleculartools
+    INSERT INTO vacietappliedscience
     (name, mobile_no, email, regno, institution, year, order_id, amount)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?)
 ");
@@ -49,12 +49,12 @@ if ($stmt->execute()) {
         'firstname' => $name,
         'email' => $email,
         'phone' => $mobile_no,
-        'productinfo' => 'vacmoleculartools'
+        'productinfo' => 'vaciet'
     ];
     ?>
 
     <!-- Secure POST Redirect -->
-    <form id="redirectForm" method="POST" action="https://sageuniversity.in/sage_events/vac_molecular_tools/easebuzz/index.php">
+    <form id="redirectForm" method="POST" action="https://sageuniversity.in/sage_events/vac_iet_applied_science/easebuzz/index.php">
         <input type="hidden" name="data" value='<?php echo json_encode($data, JSON_HEX_APOS | JSON_HEX_QUOT); ?>'>
     </form>
     <script>
@@ -63,6 +63,6 @@ if ($stmt->execute()) {
 
     <?php
 } else {
-    echo "<script>alert('Something went wrong: {$stmt->error}'); window.location.href='https://sageuniversity.in/sage_events/vac_molecular_tools';</script>";
+    echo "<script>alert('Something went wrong: {$stmt->error}'); window.location.href='https://sageuniversity.in/sage_events/vac_iet_applied_science';</script>";
 }
 ?>

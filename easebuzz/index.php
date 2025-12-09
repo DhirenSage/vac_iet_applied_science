@@ -22,18 +22,18 @@ $amount     = $data['amount'] ?? '';
 $name       = $data['firstname'] ?? '';
 $email      = $data['email'] ?? '';
 $phone      = $data['phone'] ?? '';
-$productinfo= $data['productinfo'] ?? 'vacmoleculartools';
+$productinfo= $data['productinfo'] ?? 'vaciet';
 
 // Step 4: Display confirmation or send to Easebuzz API
 // URLs
-$surl = "https://sageuniversity.in/sage_events/vac_molecular_tools/response.php";
-$furl = "https://sageuniversity.in/sage_events/vac_molecular_tools/";
+$surl = "https://sageuniversity.in/sage_events/vac_iet_applied_science/response.php";
+$furl = "https://sageuniversity.in/sage_events/vac_iet_applied_science/";
 
 
 // Step 5: Redirect to Easebuzz actual payment (example)
 ?>
 
-<form id="easebuzzForm" method="POST" action="https://sageuniversity.in/sage_events/vac_molecular_tools/easebuzz/easebuzz.php?api_name=initiate_payment" style="display:none;">
+<form id="easebuzzForm" method="POST" action="https://sageuniversity.in/sage_events/vac_iet_applied_science/easebuzz/easebuzz.php?api_name=initiate_payment" style="display:none;">
     <input type="hidden" name="txnid" value="<?php echo htmlspecialchars($order_id); ?>">
     <input type="hidden" name="amount" value="<?php echo htmlspecialchars($amount); ?>">
     <input type="hidden" name="firstname" value="<?php echo htmlspecialchars($name); ?>">
