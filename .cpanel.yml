@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sageuni/public_html/sage_events/vac_iet_applied_science/
+    - /bin/cp -R * $DEPLOYPATH
